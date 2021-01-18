@@ -537,7 +537,7 @@ span[class*="botTagRegular"] {
     background-color: var(--text-link);
   }
   .circleIconButton-jET_ig.selected-ugP_am svg path{
-    fill: yellow;
+    fill: white;
   }
 
 /* Friend list, block list, etc */
