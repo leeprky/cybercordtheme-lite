@@ -1,10 +1,11 @@
 /* imports */
 @import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
+@import url('https://poilerwags.github.io/Customa-Discord/Chat/radialstatus.m.css');
 
-/* BLURPLE YELLOW */
+/* BLURPLE YELLOW LIGHT */
 
 :root {
-    --alt-color: 200, 200, 0; /* Must be an rgb color for opacity to work */
+    --alt-color: 214, 214, 0; /* Must be an rgb color for opacity to work */
     --radio-group-dot-foreground: rgba(var(--alt-color));
 }
 
@@ -56,6 +57,11 @@ button[class*="lookFilled"].colorBrand-3pXr91:hover {
     background-color: rgba(var(--alt-color)) !important;
     color: #fff !important;
     border-color: rgba(var(--alt-color)) !important;
+}
+
+/* Sliders */
+div[class*="barFill-"] {
+    background-color: rgba(var(--alt-color)) !important;
 }
 
 /* Reactions */
@@ -124,6 +130,15 @@ span[class*="wanderingCubesItem-"] {
 /* Server Partner Badges */
 svg[aria-label="Discord Partner"] {
     color: rgba(var(--alt-color)) !important;
+}
+
+/* Wide Buttons */
+div[class*="radioGroup-"] div[style*="background-color: rgb(114, 137, 218)"] {
+    background-color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color)) !important;
+}
+div[class*="cardPrimaryEditable-"] div[style*="border-color: rgb(114, 137, 218)"] {
+    border-color: rgba(var(--alt-color)) !important;
 }
 
 /* Discord Nitro Button in Settings */
@@ -353,9 +368,8 @@ span[class*="botTagRegular"] {
     color: rgba(var(--alt-color)) !important;
 }
 
-
-
 /* ----------------------------------------------------------- */ 
+
 
 /* CYBERCORD LIGHT */
 
@@ -415,7 +429,7 @@ span[class*="botTagRegular"] {
   --search-menu-colour: #0c0e13 !important;
 
   /* colour of spoilered text */
-  --spoiler-colour: #00000;
+  --spoiler-colour: #00000d;
 
   /* colour for the following things:
      - channel icon, text with "Today at ..." by message
@@ -431,7 +445,7 @@ span[class*="botTagRegular"] {
      - mute mic/deafen/user settings
      - mentions inbox
      - text names of settings */
-  --interactive-normal: #FFFFFF !important;
+  --interactive-normal: #c8c8c8 !important;
 
   /* colour of text/button in interactive buttons (and text channel
   names) when hovered over */
@@ -464,6 +478,7 @@ span[class*="botTagRegular"] {
   --offline-color: #3c3c3c !important;
 }
 
+
 /* Add role box (thanku Luckfire!!!) */
   /* Add Role header */
   .container-VSDcQc > .header-2bNvm4 {
@@ -480,7 +495,6 @@ span[class*="botTagRegular"] {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2),
                 0 0 0 1px var(--background-secondary);
   }
-
 
 
 /* Hiding the @ symbol in DMs (thanks to turkey snapper#0001!) */
@@ -513,6 +527,24 @@ span[class*="botTagRegular"] {
   color: var(--text-link);
 }
 
+
+/* Discord watermark text in top left hand corner */
+  .wordmark-2iDDfm svg {
+    width: 0px;
+  }
+  .wordmark-2iDDfm:after {
+    font-family: "Discord";
+    content: "CYBERCORDLIGHT!";
+    font-size: 15px;
+    background: rgb(255, 255, 255, 0.3);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 6px;
+  }
+
+
 /* Tiffany blue Discord join/explore buttons */
   .circleIconButton-jET_ig svg path{
     fill: var(--text-link);
@@ -521,7 +553,7 @@ span[class*="botTagRegular"] {
     background-color: var(--text-link);
   }
   .circleIconButton-jET_ig.selected-ugP_am svg path{
-    fill: white;
+    fill: yellow;
   }
 
 /* Friend list, block list, etc */
@@ -1037,7 +1069,6 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 20px; }
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
-
 
 :root{
  
