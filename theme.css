@@ -1069,3 +1069,17 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   --rs-invisible-color: #747f8d;
 
 }
+
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+  background: url("https://cdn.discordapp.com/attachments/706617700776018034/800861961390522388/download.png"); /* image url */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  margin-top: -2px;
+}
+
+.homeIcon-tEMBK1 path {
+  fill: transparent;
+}
