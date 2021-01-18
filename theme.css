@@ -705,7 +705,7 @@ div.message-2qnXI6:hover {
 /* color current channel bright pink, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
 {
-    color: rgba(1, 207, 207, .9) !important;
+    color: rgba(7, 207, 207, .9) !important;
     padding-left: 5px
 }
 
@@ -717,7 +717,7 @@ div.message-2qnXI6:hover {
 /* color unread channels bright green, and add arrows after them */
 [class*='modeUnread'] [class*='name']
 {
-    color: #FFFFFF !important; #C2C203
+    color: ##07AEB0 !important; #07AEB0
     padding-left: 3px
 }
 
