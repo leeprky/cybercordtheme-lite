@@ -371,23 +371,7 @@ span[class*="botTagRegular"] {
 /* ----------------------------------------------------------- */ 
 
 
-/* CYBERCORD LIGHT */
-
-/* Discord watermark text in top left hand corner */
-  .wordmark-2iDDfm svg {
-    width: 0px;
-  }
-  .wordmark-2iDDfm:after {
-    font-family: "Discord";
-    content: "CYBERCORDLIGHT!"; /* change here */
-    font-size: 15px;
-    background: rgb(255, 255, 255, 0.3);
-    background-size: 400% 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 6px;
-  }
+/* CYBERCORD YELLOW LIGHT */
 
 :root {
   /* self explanatory (hopefully) */
