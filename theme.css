@@ -1038,7 +1038,11 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
 
+
 :root{
+ 
+  --ColChat: white;
+  --text-link: var(--ColLink);
 
   --rs-small-spacing: 2px;
   --rs-large-spacing: 2px;
@@ -1050,10 +1054,5 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #747f8d;
-
-  --columns: 2;
-  --guildsize: 50;
-  --guildgap: 2;
-  --aligndms: 0;
 
 }
