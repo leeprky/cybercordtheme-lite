@@ -15,7 +15,7 @@ Head to C:\Users\[USER]\powercord\src\Powercord
 
 Right Click "themes" and click Git Bash Here
 
-Type "git clone https://github.com/leeprky/cybercordtheme-light"
+Type "git clone https://github.com/leeprky/cybercordtheme-lite"
 
 Refresh Discord
 
