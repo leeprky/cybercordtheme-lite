@@ -1037,3 +1037,23 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .item-1tOPte, .menu-3sdvDG.styleFlexible-wGDiIL { border-radius: 20px; }
 .submenu-2-ysNh.menu-3sdvDG { border-radius: 21px; }
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j { left: -1.5px; }
+
+:root{
+
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 15%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 0;
+
+}
