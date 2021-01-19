@@ -1,4 +1,4 @@
-# cybercord
+# cybercord lite
 a A Discord Powercord Based CSS Theme.
 its based on the midnightcord theme by madeleine#0173
 
@@ -6,7 +6,8 @@ this is my not my theme i have just edited and added a few snippits of css prett
 
 ## information
 
-This Is the Yellow Light version
+THIS IS THE CYBERCORD YELLOW THEME WITHOUT ANIMATIONS
+This Is the Yellow Lite version
 IT IS NOT LIGHT MODE - ITS NO ANIMATIONS
 
 ## install
