@@ -10,13 +10,14 @@ THIS IS THE CYBERCORD YELLOW THEME WITHOUT ANIMATIONS
 This Is the Yellow Lite version
 IT IS NOT LIGHT MODE - ITS NO ANIMATIONS
 
-## install
+## HOW TO INSTALL
 
 Head to C:\Users\[USER]\powercord\src\Powercord
 
 Right Click "themes" and click Git Bash Here
 
 Type "git clone https://github.com/leeprky/cybercordtheme-lite"
+*or CTRL+SHIFT+INS to copy it in*
 
 Refresh Discord
 
