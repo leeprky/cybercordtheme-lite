@@ -20,7 +20,7 @@
   font-family: "Discord";
   content: "CYBERCORD!";
   font-size: 15px;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.74);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
